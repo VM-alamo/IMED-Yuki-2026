@@ -33,9 +33,9 @@ h3 {
         padding-left: 20px;
     }
     #main-2 {
-        margin-left: 220px;
+        margin-left: 100px;
         background-color: lightblue;
-        padding-left: 20px;
+        padding-left: 15px;
     }
     #main-3 {
         margin-left: 220px;
@@ -87,4 +87,33 @@ h2 {
   font-family: "Coral Pixels", serif;
   font-weight: 400;
   font-style: normal;
+}
+table, th, td {
+  border: 1px solid red;
+}
+table {
+    margin-right: 220px;
+    float: right;
+       text-align: center;
+}
+ul.a {
+  list-style-image: url('sqpurple.gif');
+  list-style-type: square;  
+}
+ul.a{
+  background: powderblue;
+  padding: 20px;
+  margin-left: 250px;
+
+}
+
+ul.a li {
+  background: white;
+  color: darkblue;
+  margin: 5px;
+}
+ul.b {
+    
+    list-style-type: circle;
+     list-style-position: inside;
 }
