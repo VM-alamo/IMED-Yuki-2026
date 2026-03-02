@@ -7,7 +7,7 @@ h3 {
 #container {
     width: 800px;
     background-color: cornflowerblue;
-    height: 1000px;
+    height: 1550px;
     margin: auto;
 }
 
@@ -116,4 +116,28 @@ ul.b {
     
     list-style-type: circle;
      list-style-position: inside;
+}
+#submit {
+    background-color: lightsteelblue;
+    color: navy;
+    border: 1px solid navy;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#checkbox form  {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#checkbox label {display: block;}
+
+ [type=text], select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
