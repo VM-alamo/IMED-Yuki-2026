@@ -1,0 +1,28 @@
+.containers {
+  display: flex;
+  flex-direction: row;
+  background-color: DodgerBlue;
+}
+
+.containers div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;  
+  font-size: 30px;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  background-color: DodgerBlue;
+}
+
+.container1 div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;  
+  font-size: 30px;
+}
